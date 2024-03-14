@@ -13,12 +13,12 @@ function Gallery(element){
   this.list = [...element.querySelectorAll('.img')];
  // target
  this.modal= getElement('.modal');
- this.modalImg = getElement('.modal-img');
+ this.modalImg = getElement('.main-img');
  this.imageName = getElement('.image-name');
  this.modalImages = getElement('.modal-images');
  this.closeBtn = getElement('.close-btn');
- this.nextBtn = getElement(".next-btn");
- this.prevBtn = getElement(".prev-btn");
+ this.nextBtn = getElement('.next-btn');
+ this.prevBtn = getElement('.prev-btn');
  // bind functions
 //this.openModal = this.openModal.bind(this);
 this.closeModal = this.closeModal.bind(this);
